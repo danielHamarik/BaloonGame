@@ -177,6 +177,7 @@ public class MainActivity extends AppCompatActivity implements Balloon.BalloonLi
                 AlertDialog a = b.create();
                 a.show();
             }
+            setToFullScreen();
         }
     }
 
